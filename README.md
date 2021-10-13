@@ -85,3 +85,4 @@ please don't hesitate to open a [pull request](https://github.com/chetanverma16/
 ## Thanks
 If you like this portfolio template don't forget give it a ⭐ and also share it with me [here](mailto:hello@chetanverma.com).
 
+# react-portfolio-template
