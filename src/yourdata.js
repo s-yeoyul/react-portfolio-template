@@ -11,6 +11,7 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
+import violin from "./images/violin-silhouette.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -109,7 +110,12 @@ export default {
 
   skills: [
     {
-      img: htmlIcon,
+      img: reactIcon,
+      para:
+        "I'm rookie in wafflestudio, major in frontend. Since 2021 September i started to learn React. React is released by facebook develop team, and it's latest technology in Frontend. Many famous companies use this.",
+    },
+    {
+      img: violin,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
     },
@@ -117,27 +123,7 @@ export default {
       img: cssIcon,
       para:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: reactIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: designIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: codeIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
+    }
   ],
 
   // End Skills Section --------------------------
