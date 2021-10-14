@@ -13,7 +13,7 @@ But if you want to **contribute** and make this much better for other developer 
 If you created something awesome and want to contribute then feel free to open an [pull request](https://github.com/chetanverma16/react-portfolio-template/pulls).
 
 ## Features
-- Responsive
+- Responsive !
 - Modern Design
 - Clean Animations
 - Easy to use
