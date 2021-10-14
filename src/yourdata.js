@@ -11,21 +11,22 @@ import githubIcon from "./images/github.svg"
 import codepenIcon from "./images/codepen.svg"
 import dribbbleIcon from "./images/dribbble.svg"
 import instagramIcon from "./images/instagram.svg"
-import violin from "./images/violin-silhouette.png"
+import viola from "./images/violin-silhouette.png"
+import guitar from "./images/icons8-guitar-50.png"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
   //Change The Website Template
 
   //   Header Details ---------------------
-  name: "sangmyeon",
+  name: "Sang-myeon Yoon",
   headerTagline: [
     //Line 1 For Header
     "Studying Frontend,",
     //Line 2 For Header
     "Instruments, and enjoy",
     //Line 3 For Header
-    "learning new things.",
+    "new Challenges.",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -94,11 +95,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I like learning new things. I want to be all round player in engineering, so i'm trying to have many experiences.",
+    "I like learning new things. I dream to be a full-stack developer, so i challenge in many fields to get fresh experiences.",
   aboutParaTwo:
-    "I love music, especially korean independent music, classics, jpops. And also love playing instruments.",
+    "One of the reason i live is music, cause it fills me with determination. I usually listen korean independent music, classics, pops. And also love playing instruments(viola, guitar).",
   aboutParaThree:
-    "First time for everyone. I like this, and i don't be discouraged at first time. I believe the power of time and effort. So let's go further.",
+    "First time for everyone. The reason someone is skilled is he has first time, and many disappointing times. I believe the power of overcoming time and effort. Someday you'll find you achieve things you can't imagine at first.",
   aboutImage:
     "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 
@@ -115,14 +116,14 @@ export default {
         "I'm rookie in wafflestudio, major in frontend. Since 2021 September i started to learn React. React is released by facebook develop team, and it's latest technology in Frontend. Many famous companies use this.",
     },
     {
-      img: violin,
+      img: viola,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I'm a amateur viola player in school orchestra. I met viola in 2021 May, and it gives me a sense of challenge. I like romanticism, especially Tchaikovsky and Rachmaninoff.",
     },
     {
-      img: cssIcon,
+      img: guitar,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Actually my first instrument is electric bass guitar, but now i'm studying acoustic guitar. It's been about a year i learn guitar. I can play some easy kpops :D.",
     }
   ],
 
@@ -130,14 +131,16 @@ export default {
 
   //   Promotion Section --------------------------
 
-  promotionHeading: "Heading",
+  /* promotionHeading: "Heading",
   promotionPara:
     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+  */
   // End Promotion Section -----------------
+
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's create your next experience together",
+  contactSubHeading: "Let's get further with me!",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/s-yeoyul" },
@@ -150,4 +153,3 @@ export default {
   // End Contact Section ---------------
 }
 
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
