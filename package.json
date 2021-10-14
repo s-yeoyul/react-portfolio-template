@@ -23,6 +23,7 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
+    "react-scripts": "^4.0.3",
     "react-scroll": "^1.8.4"
   },
   "devDependencies": {
@@ -33,13 +34,11 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "deploy": "aws s3 sync ./build s3://yeoyul-portfolio-deploy --profile=s-yeoyul"
   },
   "repository": {
     "type": "git",
